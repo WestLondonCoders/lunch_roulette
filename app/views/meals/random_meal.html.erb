@@ -1,1 +1,5 @@
-<h1><%= @random_meal.name %></h1>
+<% if @random_meal %>
+  <h1><%= @random_meal.name %></h1>
+<% else %>
+  <h1>Sorry, there are no meals.</h1>
+<% end %>
