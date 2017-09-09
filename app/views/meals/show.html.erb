@@ -1,3 +1,4 @@
 <h1><%= @meal.name %></h1>
-<p>This is the <%= @meal.name %> page.</p>
+<p><%= @meal.description %></p>
+
 <p><%= link_to 'Delete', meal_path(@meal), method: :delete %></p>
